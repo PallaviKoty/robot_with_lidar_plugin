@@ -44,6 +44,7 @@ roscore
 
 ### Terminal 2:
 ```
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/gazebo_workspaces/lidar_plugin/build
 gazebo --verbose ../velodyne_on_robot.world
 ```
 
