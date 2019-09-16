@@ -20,6 +20,7 @@ lidar_plugin/
 Initial compilation of the plugin:
 
 ```
+source /opt/ros/melodic/setup.bash
 cd lidar_plugin
 mkdir build
 cd build
